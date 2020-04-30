@@ -1,0 +1,145 @@
+body{
+    background-color: #ffffff;
+    position: relative;
+}
+ /* Header */
+header{
+    min-height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+header, footer, footer a, button{
+    background-color: #589c87;
+    color: #fdcb46;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3{
+    width: 400px;
+}
+h3{
+    font-size: 2em;
+}
+.menu__1{
+    background-color: #fcdfdb;
+}
+
+.menu__1 h2{
+    margin-top: 0px;
+    font-family: 'Devonshire', cursive;
+}
+
+.menu__1 h3, .menu__3 h3, .menu__4{
+    font-family: "Kalam", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.menu__2{
+    background-color: #fff5fe;
+}
+
+.menu__2 h2{
+    font-family: 'Kurale', serif;
+}
+
+
+.menu__3{
+    background-color: #f9f9f9;
+}
+
+.menu__3 h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu__4{
+    background-color: #fdfffd;
+}
+
+.menu__4 h2{
+    font-family: 'Kaushan Script', cursive;
+}
+section{
+    box-shadow: 1px 1px 10px 0px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+}
+
+.menu{
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu :first-child{
+    margin-right: 50px;
+}
+
+.menu__1--title, .menu__2--title, .menu__3--title, .menu__4--title{
+    margin-top: 200px;
+    width: auto;
+    text-align: center;
+}
+
+.menu__1 :first-child{
+    margin-top: 70px;
+}
+
+.menu__1 img{
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+/* Bouton prochainement */
+
+button{
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 60px;
+}
+
+
+button p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2em;
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
