@@ -18,5 +18,6 @@
   "homepage": "https://github.com/tifiloutube/Projet_3#readme",
   "dependencies": {
     "sass": "^1.26.5"
-  }
+  },
+  "devDependencies": {}
 }
