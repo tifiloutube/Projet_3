@@ -1,1 +1,126 @@
-@import "./base/base.scss";
+
+$color-primary: #579C87;
+$color-secondary: #FDCB46;
+$light-pink: #FCDFDB;
+$light-magenta: #FFF5FE;
+$light-grey:#F9F9F9;
+$egg-shell: #FDFFFD;
+$rustic-red: #3C1218;
+$ocre: #C77413;
+$dodger-blue: #0887FB;
+$apple: #68B852;
+
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: $color-primary;
+    margin-bottom: 50px;
+    &__logo{
+        display: flex;
+        margin: auto;
+    }
+}
+
+.main__block{
+    margin: auto;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &--btn{
+        width: 350px;
+        height: 55px;
+        font-size: 2em;
+        border-radius: 10px;
+        background-color: $color-primary;
+        color: $color-secondary;
+        margin-bottom: 120px;
+    }
+}
+
+.menu{
+    width: 300px;
+    height: 450px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0 0 7px #dddddd;
+    &__h3{
+        font-size: 1.5em;
+    }
+    &__h3--style{
+        font-family: kalam, sans-serif;
+    }
+}
+
+.st__menu{
+    background-color: $light-pink;
+    &--inside{
+        margin-top: 130px;
+        text-decoration: none;
+        color: $rustic-red;
+    }
+    &--logo{
+        width: 20%;
+    }
+    &--h2{
+        margin-top: 0px;
+        font-family: devonshire, sans-serif;
+    }
+}
+
+.snde__menu{
+    background-color: $light-magenta;
+    &--inside{
+        color: $ocre;
+    }
+    &--h2{
+        font-family: kurale, sans-serif;
+    }
+}
+
+.trd__menu{
+    background-color: $light-grey;
+    &--inside{
+        color: $dodger-blue;
+    }
+    &--h2{
+        font-family: 'Dancing Script', cursive, sans-serif;
+    }
+}
+
+.fth__menu{
+    background-color: $egg-shell;
+    &--inside{
+        color: $apple;
+    }
+    &--h2{
+        font-family: 'Kaushan Script', cursive, sans-serif;
+    }
+}
+
+.menu__inside{
+    margin-top: 180px;
+}
+
+.footer{
+    background-color: $color-primary;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    &__element{
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: $color-secondary;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+}
