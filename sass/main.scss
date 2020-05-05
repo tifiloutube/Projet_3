@@ -53,6 +53,13 @@ $apple: #68B852;
     &__h3--style{
         font-family: kalam, sans-serif;
     }
+    &__effect--zoom{
+        :hover{
+            transform: scale(1.1);
+            transition: transform 330ms ease-in-out;
+            opacity: 0.5;
+            }
+        }
 }
 
 .st__menu{
