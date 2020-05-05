@@ -12,12 +12,14 @@ $apple: #68B852;
 
 .header{
     width: 100%;
-    height: 120px;
+    height: auto;
     background-color: $color-primary;
     margin-bottom: 50px;
     &__logo{
         display: flex;
         margin: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
 
