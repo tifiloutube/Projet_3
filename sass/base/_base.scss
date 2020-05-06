@@ -1,4 +1,4 @@
-/* Taille et placement des blocs */
+/* Header et footer */
 .header{
     width: 100%;
     &__logo{
@@ -15,4 +15,35 @@
     width: 500px;
 }
 
-/* Police et taille des textes */
+/* Police et couleur du texte */
+.st__menu{
+    background-color: $light-pink;
+    color: $rustic-red;
+    &--logo{
+        width: 20%;
+    }
+    &--h2{
+        margin-top: 0px;
+        font-family: devonshire, sans-serif;
+    }
+}
+
+.snde__menu{
+    background-color: $light-magenta;
+    &--inside{
+        color: $ocre;
+    }
+    &--h2{
+        font-family: kurale, sans-serif;
+    }
+}
+
+.trd__menu{
+    background-color: $light-grey;
+    &--inside{
+        color: $dodger-blue;
+    }
+    &--h2{
+        font-family: 'Dancing Script', cursive, sans-serif;
+    }
+}

@@ -1,1 +1,20 @@
+$color-primary: #579C87;
+$color-secondary: #FDCB46;
 $light-pink: #FCDFDB;
+$light-magenta: #FFF5FE;
+$light-grey:#F9F9F9;
+$egg-shell: #FDFFFD;
+$rustic-red: #3C1218;
+$ocre: #C77413;
+$dodger-blue: #0887FB;
+$apple: #68B852;
+
+
+/* en faire une mixin */
+.menu__effect--zoom{
+    :hover{
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+    opacity: 0.5;
+    }
+}
