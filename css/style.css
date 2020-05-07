@@ -5,15 +5,6 @@
   opacity: 0.5;
 }
 
-/* Header et footer */
-.header {
-  width: 100%;
-}
-.header__logo {
-  display: flex;
-  margin: auto;
-}
-
 .main__block--menu {
   display: flex;
 }
@@ -108,9 +99,6 @@
 }
 .menu__h3 {
   font-size: 1.5em;
-}
-.menu__h3--style {
-  font-family: kalam, sans-serif;
 }
 
 .st__menu--inside {

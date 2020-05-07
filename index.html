@@ -14,60 +14,58 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="header__link">
+            <img src="assets/images/logo_ohmyfood.png" alt="logo" class="header__logo">
+        </a>
+    </header>
 
-        <!-- Header -->
-        <header class="header">
-            <a href="index.html" class="header__link">
-                <img src="assets/images/logo_ohmyfood.png" alt="logo" class="header__logo">
+    <!-- Bloc principal avec les 4 menus et bouton -->
+    <div class="main">
+
+        <!-- Bloc central composé des 4 menus -->
+        <div class="main__block main__block--menu">
+
+            <!-- Menu 1 - La note enchantée -->
+            <a href="la_note_enchantée.html" class="menu menu__effect--zoom st__menu">
+                <div class="st__menu--inside">
+                    <img src="assets/images/menus/menu_1/logo.png" alt="logo" class="st__menu--logo">
+                    <h2 class="st__menu--h2 menu__title">La note enchantée</h2>
+                    <h3  class="menu__h3 menu__h3--style menu__title">MENU</h3>
+                    </div>
             </a>
-        </header>
 
-        <!-- Bloc principal avec les 4 menus et bouton -->
-        <div class="main">
+            <!-- Menu 2 - Le chic à la française -->
+            <a href="le_chic_a_la_fracaise.html" class="menu menu__effect--zoom snde__menu">
+                <div class="menu__inside snde__menu--inside">
+                    <h2 class="snde__menu--h2 menu__title">Le chic à la française</h2>
+                    <h3 class="menu__h3 menu__title">Menu</h3>
+                </div>
+            </a>
 
-             <!-- Bloc central composé des 4 menus -->
-            <div class="main__block main__block--menu">
+            <!-- Menu 3 - Le délice des papilles -->
+            <a href="le_delice_des_papilles.html" class="menu menu__effect--zoom trd__menu">
+                <div class="menu__inside trd__menu--inside">
+                    <h2 class="trd__menu--h2 menu__title">Le délice des papilles</h2>
+                    <h3 class="menu__h3 menu__h3--style menu__title">Menu</h3>
+                </div>
+            </a>
 
-                <!-- Menu 1 - La note enchantée -->
-                <a href="la_note_enchantée.html" class="menu menu__effect--zoom st__menu">
-                    <div class="st__menu--inside">
-                        <img src="assets/images/menus/menu_1/logo.png" alt="logo" class="st__menu--logo">
-                        <h2 class="st__menu--h2 menu__title">La note enchantée</h2>
-                        <h3  class="menu__h3 menu__h3--style menu__title">MENU</h3>
-                    </div>
-                </a>
-
-                <!-- Menu 2 - Le chic à la française -->
-                <a href="le_chic_a_la_fracaise.html" class="menu menu__effect--zoom snde__menu">
-                    <div class="menu__inside snde__menu--inside">
-                        <h2 class="snde__menu--h2 menu__title">Le chic à la française</h2>
-                        <h3 class="menu__h3 menu__title">Menu</h3>
-                    </div>
-                </a>
-
-                <!-- Menu 3 - Le délice des papilles -->
-                <a href="le_delice_des_papilles.html" class="menu menu__effect--zoom trd__menu">
-                    <div class="menu__inside trd__menu--inside">
-                        <h2 class="trd__menu--h2 menu__title">Le délice des papilles</h2>
-                        <h3 class="menu__h3 menu__h3--style menu__title">Menu</h3>
-                    </div>
-                </a>
-
-                <!-- Menu 4 - La pelette du goût -->
-                <a href="le_palette_du_gout.html" class="menu menu__effect--zoom fth__menu">
-                    <div class="menu__inside fth__menu--inside">
-                        <h2 class="fth__menu--h2 menu__title">La palette du goût</h2>
-                        <h3 class="menu__h3 menu__h3--style menu__title">Menu</h3>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Bouton prochainement -->
-            <div class="btn__soon main__block">
-                <button class="btn__soon--style">Prochainement<span class="btn__soon--ponctuation">...</span></button>
-            </div>
+            <!-- Menu 4 - La pelette du goût -->
+            <a href="le_palette_du_gout.html" class="menu menu__effect--zoom fth__menu">
+                <div class="menu__inside fth__menu--inside">
+                    <h2 class="fth__menu--h2 menu__title">La palette du goût</h2>
+                    <h3 class="menu__h3 menu__h3--style menu__title">Menu</h3>
+                </div>
+            </a>
         </div>
+
+        <!-- Bouton prochainement -->
+        <div class="btn__soon main__block">
+            <button class="btn__soon--style">Prochainement<span class="btn__soon--ponctuation">...</span></button>
+        </div>
+    </div>
 
         <!-- Footer -->
         <footer class="footer">
@@ -79,6 +77,5 @@
                 Contactez-nous
             </a>
         </footer>
-    </div>    
 </body>
 </html>
