@@ -1,9 +1,13 @@
-.btn__soon--style{
-        width: 350px;
-        height: 55px;
-        font-size: 2em;
-        border-radius: 10px;
-        background-color: $color-primary;
-        color: $color-secondary;
-        margin-bottom: 120px;
+.btn{
+        display: flex;
+                &__soon--style{
+                text-align: center;
+                font-size: 2em;
+                border-radius: 10px;
+                width: 350px;
+                height: 60px;
+                background-color: $color-primary;
+                color: $color-secondary;
+                margin: auto;
+                }
 }

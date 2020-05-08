@@ -1,38 +1,27 @@
-.main__block--menu{
-    display: flex;
-}
-
-.menu{
-    width: 500px;
-}
-
-/* Police et couleur du texte */
-.st__menu{
+.menu__st{
     background-color: $light-pink;
     color: $rustic-red;
-    &--logo{
-        width: 20%;
-    }
-    &--h2{
-        margin-top: 0px;
-        font-family: devonshire, sans-serif;
-    }
 }
 
-.snde__menu{
+.menu__snde{
     background-color: $light-magenta;
     color: $ocre;
-    &--h2{
-        font-family: kurale, sans-serif;
-    }
 }
 
-.trd__menu{
+.menu__thd{
     background-color: $light-grey;
-    &--inside{
-        color: $dodger-blue;
-    }
-    &--h2{
-        font-family: 'Dancing Script', cursive, sans-serif;
-    }
+    color: $dodger-blue;
+}
+
+.menu__fth{
+    background-color: $egg-shell;
+    color: $apple;
+}
+
+.menu__shadow{
+    box-shadow: 0 0 7px #dddddd;
+}
+
+a{
+    text-decoration: none;
 }

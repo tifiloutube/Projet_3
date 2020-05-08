@@ -1,3 +1,11 @@
+/* background first menu */
+/* background second menu */
+/* background thrid menu */
+/* background fourth menu */
+/* color first menu */
+/* color second menu */
+/* color third menu */
+/* color fourth menu */
 /* en faire une mixin */
 .menu__effect--zoom :hover {
   transform: scale(1.1);
@@ -5,43 +13,32 @@
   opacity: 0.5;
 }
 
-.main__block--menu {
-  display: flex;
-}
-
-.menu {
-  width: 500px;
-}
-
-/* Police et couleur du texte */
-.st__menu {
+.menu__st {
   background-color: #FCDFDB;
   color: #3C1218;
 }
-.st__menu--logo {
-  width: 20%;
-}
-.st__menu--h2 {
-  margin-top: 0px;
-  font-family: devonshire, sans-serif;
-}
 
-.snde__menu {
+.menu__snde {
   background-color: #FFF5FE;
   color: #C77413;
 }
-.snde__menu--h2 {
-  font-family: kurale, sans-serif;
-}
 
-.trd__menu {
+.menu__thd {
   background-color: #F9F9F9;
-}
-.trd__menu--inside {
   color: #0887FB;
 }
-.trd__menu--h2 {
-  font-family: "Dancing Script", cursive, sans-serif;
+
+.menu__fth {
+  background-color: #FDFFFD;
+  color: #68B852;
+}
+
+.menu__shadow {
+  box-shadow: 0 0 7px #dddddd;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -77,46 +74,44 @@
   font-size: 1.5em;
 }
 
-.main__block {
-  margin: auto;
-  max-width: 800px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .menu {
-  width: 300px;
-  height: 450px;
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 50px;
-  box-shadow: 0 0 7px #dddddd;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 5%;
+  justify-content: space-around;
 }
-.menu__h3 {
-  font-size: 1.5em;
-}
-
-.st__menu--inside {
-  margin-top: 130px;
-  text-decoration: none;
-  color: #3C1218;
-}
-
-.menu__inside {
-  margin-top: 180px;
-}
-
-.btn__soon--style {
+.menu__home-page {
   width: 350px;
-  height: 55px;
+  height: 450px;
+  text-align: center;
+}
+.menu__home-page--title {
+  margin-top: 50%;
+}
+.menu__st--home-page-logo {
+  position: absolute;
+  width: 3.5%;
+  top: 32%;
+  left: 36%;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+.btn {
+  display: flex;
+}
+.btn__soon--style {
+  text-align: center;
   font-size: 2em;
   border-radius: 10px;
+  width: 350px;
+  height: 60px;
   background-color: #579C87;
   color: #FDCB46;
-  margin-bottom: 120px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
