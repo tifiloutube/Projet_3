@@ -37,6 +37,27 @@
   box-shadow: 0 0 7px #dddddd;
 }
 
+.menu__page {
+  max-width: 1180px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+.menu__page--title {
+  text-align: center;
+}
+.menu__page--list {
+  max-width: 880px;
+  margin: auto;
+  margin-top: 5%;
+}
+.menu__page--dish {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__page--bar {
+  height: 10%;
+}
+
 a {
   text-decoration: none;
 }
@@ -94,6 +115,12 @@ a {
   width: 3.5%;
   top: 32%;
   left: 36%;
+}
+.menu__page--logo-1 {
+  width: 7.5%;
+}
+.menu__page--logo-2 {
+  margin-top: 3%;
 }
 
 section {

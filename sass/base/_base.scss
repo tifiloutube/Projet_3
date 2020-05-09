@@ -22,6 +22,29 @@
     box-shadow: 0 0 7px #dddddd;
 }
 
+.menu__page{
+    max-width: 1180px;
+    margin: auto;
+    margin-bottom: 150px;
+    &--title{
+        text-align: center;
+    }
+    &--list{
+        max-width: 880px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    &--dish{
+        display: flex;
+        justify-content: space-between;
+    }
+    &--bar{
+        height: 10%;
+    }
+    
+
+}
+
 a{
     text-decoration: none;
 }
