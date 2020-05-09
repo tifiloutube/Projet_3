@@ -11,7 +11,7 @@ $apple: #68B852; /* color fourth menu */
 
 
 /* en faire une mixin */
-.menu__effect--zoom{
+.menu__home-page--zoom{
     :hover{
     transform: scale(1.1);
     transition: transform 330ms ease-in-out;
