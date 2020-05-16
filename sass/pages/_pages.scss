@@ -1,29 +1,31 @@
-.menu{
+.list-menu{
     display: flex;
     margin: auto;
     width: 50%;
     margin-bottom: 5%;
     justify-content: space-around;
-        &__home-page{
+        &__card{
             width: 350px;
             height: 450px;
             text-align: center;
         }
-            &__home-page--title{
+            &__card--title{
                 margin-top: 50%;
-            }
-                &__st--home-page-logo{
-                    position: absolute;
-                    width: 3.5%;
-                    top: 32%;
-                    left: 36%;
+                :hover{
+                    transform: scale(1);
                 }
-                    &__page--logo-1{
-                        width: 7.5%;
-                    }
-                    &__page--logo-2{
-                        margin-top: 3%;
-                    }
+            }
+                &__card--logo{
+                    width: 15%;
+                }
+}
+
+.list-menu__card--red{
+    margin-top: 40%;
+}
+
+.menu__st--page-title{
+    margin-top: 0px;
 }
 
 section{

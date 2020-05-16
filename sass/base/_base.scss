@@ -1,31 +1,64 @@
 .menu__st{
     background-color: $light-pink;
     color: $rustic-red;
+    & h2{
+        font-family: 'Devonshire', cursive;
+        font-size: 2em;
+    }
+    & h3{
+        font-family: 'Kalam', cursive;
+        font-size: 2.2em;
+    }
 }
 
 .menu__snde{
     background-color: $light-magenta;
     color: $ocre;
+    & h2{
+        font-family: 'Kurale', serif;
+    }
+    & h3{
+        font-size: 2.2em;
+    }
 }
 
 .menu__thd{
     background-color: $light-grey;
     color: $dodger-blue;
+    & h2{
+        font-family: 'Dancing Script', cursive;
+    }
+    & h3{
+        font-family: 'Kalam', cursive;
+        font-size: 2.2em;
+    }
 }
 
 .menu__fth{
     background-color: $egg-shell;
     color: $apple;
+    & h2{
+        font-family: 'Kaushan Script', cursive;
+    }
+    & h3{
+        font-family: 'Kalam', cursive;
+        font-size: 2.2em;
+    }
 }
 
-.menu__shadow{
+.menu-shadow{
     box-shadow: 0 0 7px #dddddd;
 }
 
 .menu__page{
     max-width: 1180px;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    &__page{
+        margin: auto;
+    }
     &--title{
         text-align: center;
     }
@@ -40,6 +73,19 @@
     }
     &--bar{
         height: 10%;
+    }
+    &--categories{
+        
+        & h3{
+            font-size: ;
+        }
+        & img{
+            width: 300px;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
     }
     
 

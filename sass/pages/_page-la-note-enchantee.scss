@@ -1,0 +1,29 @@
+.menu__page{
+    &--logo-1{
+    width: 7.5%;
+    }
+    &--logo-2{
+    margin-top: 3%;
+    width: 5%;
+    height: 5%;
+    }
+}
+
+.menu__st{
+    margin-top: 0px;
+    &--list{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 15%;
+    }
+}
+
+.menu__st--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h2{
+        margin-bottom: 0%;
+        font-size: 2.5em;
+    }
+}

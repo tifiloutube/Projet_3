@@ -1,144 +1,18 @@
-/* background first menu */
-/* background second menu */
-/* background thrid menu */
-/* background fourth menu */
-/* color first menu */
-/* color second menu */
-/* color third menu */
-/* color fourth menu */
-/* en faire une mixin */
-.menu__home-page--zoom :hover {
-  transform: scale(1.1);
-  transition: transform 330ms ease-in-out;
-  opacity: 0.5;
-}
+/* Error: Expected expression.
+ *    ,
+ * 80 |             font-size: ;
+ *    |                        ^
+ *    '
+ *   sass/base/_base.scss 80:24  @import
+ *   sass/main.scss 2:9          root stylesheet */
 
-.menu__st {
-  background-color: #FCDFDB;
-  color: #3C1218;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a    \2577 \a 80 \2502              font-size: ;\a    \2502                         ^\a    \2575 \a   sass/base/_base.scss 80:24  @import\a   sass/main.scss 2:9          root stylesheet";
 }
-
-.menu__snde {
-  background-color: #FFF5FE;
-  color: #C77413;
-}
-
-.menu__thd {
-  background-color: #F9F9F9;
-  color: #0887FB;
-}
-
-.menu__fth {
-  background-color: #FDFFFD;
-  color: #68B852;
-}
-
-.menu__shadow {
-  box-shadow: 0 0 7px #dddddd;
-}
-
-.menu__page {
-  max-width: 1180px;
-  margin: auto;
-  margin-bottom: 150px;
-}
-.menu__page--title {
-  text-align: center;
-}
-.menu__page--list {
-  max-width: 880px;
-  margin: auto;
-  margin-top: 5%;
-}
-.menu__page--dish {
-  display: flex;
-  justify-content: space-between;
-}
-.menu__page--bar {
-  height: 10%;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header {
-  width: 100%;
-  height: auto;
-  background-color: #579C87;
-  margin-bottom: 50px;
-}
-.header__logo {
-  display: flex;
-  margin: auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.footer {
-  background-color: #579C87;
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-.footer__element {
-  margin: auto;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: #FDCB46;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-
-.menu {
-  display: flex;
-  margin: auto;
-  width: 50%;
-  margin-bottom: 5%;
-  justify-content: space-around;
-}
-.menu__home-page {
-  width: 350px;
-  height: 450px;
-  text-align: center;
-}
-.menu__home-page--title {
-  margin-top: 50%;
-}
-.menu__st--home-page-logo {
-  position: absolute;
-  width: 3.5%;
-  top: 32%;
-  left: 36%;
-}
-.menu__page--logo-1 {
-  width: 7.5%;
-}
-.menu__page--logo-2 {
-  margin-top: 3%;
-}
-
-section {
-  margin-bottom: 150px;
-}
-
-.btn {
-  display: flex;
-}
-.btn__soon--style {
-  text-align: center;
-  font-size: 2em;
-  border-radius: 10px;
-  width: 350px;
-  height: 60px;
-  background-color: #579C87;
-  color: #FDCB46;
-  margin: auto;
-}
-
-/*# sourceMappingURL=style.css.map */
