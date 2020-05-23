@@ -1,0 +1,29 @@
+.menu__fth{
+    &-title--green{
+        color: $apple;
+        font-size: 4em;
+        font-family: "Kaushan script";
+    }
+    div:nth-child(0n+2){
+        width: 90%;
+        margin: auto;
+        }
+    div:nth-child(0n+3){
+        width: 90%;
+        margin: auto;
+    }
+    div:nth-child(0n+4){
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.menu__fth-dish{
+    width: 90%;
+    margin: auto;
+}
+
+.menu__fth p{
+    font-family: 'Tillana', cursive;
+    color: black;
+}

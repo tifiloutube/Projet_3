@@ -9,7 +9,7 @@
             height: 450px;
             text-align: center;
         }
-            &__card--title{
+            &__card-title{
                 margin-top: 50%;
                 :hover{
                     transform: scale(1);
@@ -22,10 +22,6 @@
 
 .list-menu__card--red{
     margin-top: 40%;
-}
-
-.menu__st--page-title{
-    margin-top: 0px;
 }
 
 section{

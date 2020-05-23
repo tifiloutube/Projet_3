@@ -1,0 +1,49 @@
+.menu__snde--orange{
+    color: $ocre;
+    h3{
+        font-size: 1.5em;
+        margin-top: 2.5%;
+    }
+    p{
+        font-size: 1.3em;
+    }
+}
+
+.menu__snde--pink{
+    color:$pink;
+    h3{
+        font-size: 1.5em;
+        margin-top: 2.5%;
+    }
+    p{
+        font-size: 1.3em;
+    }
+}
+
+.menu__snde--blue{
+    color: $blue;
+    h3{
+        font-size: 1.5em;
+        margin-top: 2.5%;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    div:nth-child(0n+2){
+        width: 80%;
+        margin: auto;
+        }
+    div:nth-child(0n+3){
+        width: 80%;
+        margin: auto;
+    }
+    div:nth-child(0n+4){
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.menu__snde-dish{
+    width: 80%;
+    margin: auto;
+}

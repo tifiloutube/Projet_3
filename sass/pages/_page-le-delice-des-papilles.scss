@@ -1,0 +1,35 @@
+.menu__thd{
+    &-title--blue{
+        color: $dodger-blue;
+        font-size: 4em;
+    }
+    h3{
+        font-size: 1.5em;
+        margin-top: 2.5%;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    div:nth-child(0n+2){
+        width: 90%;
+        margin: auto;
+        }
+    div:nth-child(0n+3){
+        width: 90%;
+        margin: auto;
+    }
+    div:nth-child(0n+4){
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.menu__thd-dish{
+    width: 90%;
+    margin: auto;
+}
+
+.menu__thd p{
+    font-family: 'Tillana', cursive;
+    color: black;
+}

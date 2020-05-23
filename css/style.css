@@ -1,18 +1,342 @@
-/* Error: Expected expression.
- *    ,
- * 80 |             font-size: ;
- *    |                        ^
- *    '
- *   sass/base/_base.scss 80:24  @import
- *   sass/main.scss 2:9          root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 80 \2502              font-size: ;\a    \2502                         ^\a    \2575 \a   sass/base/_base.scss 80:24  @import\a   sass/main.scss 2:9          root stylesheet";
+/* background first menu */
+/* background second menu */
+/* background thrid menu */
+/* background fourth menu */
+/* color first menu */
+/* color second menu */
+/* color third menu */
+/* color fourth menu */
+/* en faire une mixin */
+.list-menu__card--zoom:hover {
+  transform: scale(1.1);
+  transition: transform 330ms ease-in-out;
+  opacity: 0.5;
 }
+
+.menu {
+  margin-bottom: 15%;
+}
+.menu__title--black {
+  color: black;
+}
+
+.menu__st {
+  background-color: #FCDFDB;
+  color: #3C1218;
+}
+.menu__st h2 {
+  font-family: "Devonshire", cursive;
+  font-size: 2em;
+  margin-top: 0px;
+}
+.menu__st h3 {
+  font-family: "Kalam", cursive;
+  font-size: 2.2em;
+  margin-top: 0px;
+}
+
+.menu__snde {
+  background-color: #FFF5FE;
+  color: #C77413;
+}
+.menu__snde h2 {
+  font-family: "Kurale", serif;
+}
+.menu__snde h3 {
+  font-size: 2.2em;
+}
+
+.menu__thd {
+  background-color: #eef0f0;
+  color: #0887FB;
+}
+.menu__thd h2 {
+  font-family: "Dancing Script", cursive;
+}
+.menu__thd h3 {
+  font-family: "Kalam", cursive;
+  font-size: 2.2em;
+}
+
+.menu__fth {
+  background-color: #FDFFFD;
+  color: #68B852;
+}
+.menu__fth h2 {
+  font-family: "Kaushan Script", cursive;
+}
+.menu__fth h3 {
+  font-family: "Kalam", cursive;
+  font-size: 2.2em;
+}
+
+.menu-shadow {
+  box-shadow: 0 0 7px #dddddd;
+}
+
+.menu__page {
+  max-width: 1180px;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.menu__page-title {
+  text-align: center;
+}
+.menu__page-list {
+  max-width: 880px;
+  margin: auto;
+  margin-top: 5%;
+}
+.menu__page-dish {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__page--bar {
+  height: 10%;
+}
+.menu__page-categories h3 {
+  margin-top: 4%;
+}
+.menu__page-categories img {
+  width: 300px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #579C87;
+  margin-bottom: 50px;
+}
+.header__logo {
+  display: flex;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer {
+  background-color: #579C87;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer__element {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #FDCB46;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.list-menu {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+}
+.list-menu__card {
+  width: 350px;
+  height: 450px;
+  text-align: center;
+}
+.list-menu__card-title {
+  margin-top: 50%;
+}
+.list-menu__card-title :hover {
+  transform: scale(1);
+}
+.list-menu__card--logo {
+  width: 15%;
+}
+
+.list-menu__card--red {
+  margin-top: 40%;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+.menu__page--logo-1 {
+  width: 7.5%;
+}
+.menu__page--logo-2 {
+  margin-top: 0%;
+  width: 5%;
+  height: 5%;
+}
+
+.menu__st {
+  margin-top: 0px;
+}
+.menu__st-list {
+  margin-top: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 15%;
+}
+.menu__st--footer {
+  margin-top: 3%;
+}
+.menu__st--font-dish {
+  font-family: "Kurale", cursive;
+  font-size: 1.5em;
+}
+.menu__st--font-price {
+  font-family: "Devonshire", cursive;
+  font-size: 1.5em;
+}
+
+.menu__st--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__st--footer h2 {
+  margin-bottom: 0%;
+  font-size: 2.5em;
+}
+
+.menu__snde--orange {
+  color: #C77413;
+}
+.menu__snde--orange h3 {
+  font-size: 1.5em;
+  margin-top: 2.5%;
+}
+.menu__snde--orange p {
+  font-size: 1.3em;
+}
+
+.menu__snde--pink {
+  color: #A56799;
+}
+.menu__snde--pink h3 {
+  font-size: 1.5em;
+  margin-top: 2.5%;
+}
+.menu__snde--pink p {
+  font-size: 1.3em;
+}
+
+.menu__snde--blue {
+  color: #6E4CCC;
+}
+.menu__snde--blue h3 {
+  font-size: 1.5em;
+  margin-top: 2.5%;
+}
+.menu__snde--blue p {
+  font-size: 1.3em;
+}
+.menu__snde--blue div:nth-child(0n+2) {
+  width: 80%;
+  margin: auto;
+}
+.menu__snde--blue div:nth-child(0n+3) {
+  width: 80%;
+  margin: auto;
+}
+.menu__snde--blue div:nth-child(0n+4) {
+  width: 80%;
+  margin: auto;
+}
+
+.menu__snde-dish {
+  width: 80%;
+  margin: auto;
+}
+
+.menu__thd-title--blue {
+  color: #0887FB;
+  font-size: 4em;
+}
+.menu__thd h3 {
+  font-size: 1.5em;
+  margin-top: 2.5%;
+}
+.menu__thd p {
+  font-size: 1.3em;
+}
+.menu__thd div:nth-child(0n+2) {
+  width: 90%;
+  margin: auto;
+}
+.menu__thd div:nth-child(0n+3) {
+  width: 90%;
+  margin: auto;
+}
+.menu__thd div:nth-child(0n+4) {
+  width: 90%;
+  margin: auto;
+}
+
+.menu__thd-dish {
+  width: 90%;
+  margin: auto;
+}
+
+.menu__thd p {
+  font-family: "Tillana", cursive;
+  color: black;
+}
+
+.menu__fth-title--green {
+  color: #68B852;
+  font-size: 4em;
+  font-family: "Kaushan script";
+}
+.menu__fth div:nth-child(0n+2) {
+  width: 90%;
+  margin: auto;
+}
+.menu__fth div:nth-child(0n+3) {
+  width: 90%;
+  margin: auto;
+}
+.menu__fth div:nth-child(0n+4) {
+  width: 90%;
+  margin: auto;
+}
+
+.menu__fth-dish {
+  width: 90%;
+  margin: auto;
+}
+
+.menu__fth p {
+  font-family: "Tillana", cursive;
+  color: black;
+}
+
+.btn {
+  display: flex;
+}
+.btn__soon--style {
+  text-align: center;
+  font-size: 2em;
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+  background-color: #579C87;
+  color: #FDCB46;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

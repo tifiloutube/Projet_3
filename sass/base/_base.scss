@@ -1,23 +1,32 @@
+.menu{
+    margin-bottom: 15%;
+    &__title--black{
+        color: black;
+    }
+}
+
 .menu__st{
     background-color: $light-pink;
     color: $rustic-red;
-    & h2{
+    h2{
         font-family: 'Devonshire', cursive;
         font-size: 2em;
+        margin-top: 0px;
     }
-    & h3{
+    h3{
         font-family: 'Kalam', cursive;
         font-size: 2.2em;
+        margin-top: 0px;
     }
 }
 
 .menu__snde{
     background-color: $light-magenta;
     color: $ocre;
-    & h2{
+    h2{
         font-family: 'Kurale', serif;
     }
-    & h3{
+    h3{
         font-size: 2.2em;
     }
 }
@@ -25,10 +34,10 @@
 .menu__thd{
     background-color: $light-grey;
     color: $dodger-blue;
-    & h2{
+    h2{
         font-family: 'Dancing Script', cursive;
     }
-    & h3{
+    h3{
         font-family: 'Kalam', cursive;
         font-size: 2.2em;
     }
@@ -37,10 +46,10 @@
 .menu__fth{
     background-color: $egg-shell;
     color: $apple;
-    & h2{
+    h2{
         font-family: 'Kaushan Script', cursive;
     }
-    & h3{
+    h3{
         font-family: 'Kalam', cursive;
         font-size: 2.2em;
     }
@@ -53,42 +62,36 @@
 .menu__page{
     max-width: 1180px;
     margin: auto;
-    margin-bottom: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
-    &__page{
-        margin: auto;
-    }
-    &--title{
+    &-title{
         text-align: center;
     }
-    &--list{
+    &-list{
         max-width: 880px;
         margin: auto;
         margin-top: 5%;
     }
-    &--dish{
+    &-dish{
         display: flex;
         justify-content: space-between;
     }
     &--bar{
         height: 10%;
     }
-    &--categories{
-        
-        & h3{
-            font-size: ;
-        }
-        & img{
-            width: 300px;
-            margin-left: 0%;
+    &-categories{
+
+    h3{
+        margin-top: 4%;
+    }
+    img{
+        width: 300px;
+        margin-left: 0%;
             margin-right: 0%;
             margin-top: auto;
             margin-bottom: auto;
         }
     }
-    
-
 }
 
 a{
