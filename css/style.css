@@ -146,12 +146,17 @@ a {
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 475px) {
+  .header {
+    width: 207%;
+  }
+}
 .list-menu {
   display: flex;
+  width: 750px;
   margin: auto;
-  width: 50%;
-  margin-bottom: 5%;
-  justify-content: space-around;
+  margin-bottom: 50px;
+  justify-content: space-between;
 }
 .list-menu__card {
   min-width: 350px;
@@ -174,6 +179,7 @@ a {
 
 section {
   margin-bottom: 150px;
+  width: auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -188,6 +194,7 @@ section {
   .list-menu {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
   }
   .list-menu__card {
     margin: auto;
@@ -243,6 +250,36 @@ section {
   font-size: 2.5em;
 }
 
+@media screen and (max-width: 1024px) {
+  .menu__page-bar {
+    display: none;
+  }
+  .menu__page-categories {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 475px) {
+  .menu {
+    margin-left: 20%;
+    margin-bottom: 25%;
+  }
+  .menu__page {
+    width: 600px;
+    margin: auto;
+  }
+  .menu__page-list {
+    margin: auto;
+    width: 50%;
+  }
+  .menu__page-dish {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
 .menu__snde--orange {
   color: #C77413;
 }
@@ -356,6 +393,7 @@ section {
 }
 
 .btn {
+  margin-top: 5%;
   display: flex;
 }
 .btn__soon--style {
@@ -367,6 +405,13 @@ section {
   background-color: #579C87;
   color: #FDCB46;
   margin: auto;
+}
+
+@media screen and (max-width: 475px) {
+  .btn {
+    width: 209%;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

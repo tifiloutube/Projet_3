@@ -1,9 +1,9 @@
 .list-menu{
     display: flex;
+    width: 750px;
     margin: auto;
-    width: 50%;
-    margin-bottom: 5%;
-    justify-content: space-around;
+    margin-bottom: 50px;
+    justify-content: space-between;
         &__card{
             min-width: 350px;
             min-height: 450px;
@@ -24,8 +24,11 @@
     margin-top: 40%;
 }
 
+.list-menu:nth-child(2){
+}
 section{
     margin-bottom: 150px;
+    width: auto;
 }
 
 @media screen and (max-width: 1024px){
@@ -41,6 +44,7 @@ section{
 .list-menu{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
     &__card{
         margin: auto;
         margin-bottom: 10%;
@@ -52,9 +56,4 @@ section{
 .btn{
     margin: auto;
 }
-
-}
-
-@media screen and (max-width: 475px){
-    
 }
