@@ -3,6 +3,11 @@
     &__title--black{
         color: black;
     }
+    &__page-title--gradient{
+        background: -webkit-linear-gradient(45deg,#C77413, #8F5AFF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .menu__st{
@@ -15,7 +20,6 @@
     }
     h3{
         font-family: 'Kalam', cursive;
-        font-size: 2.2em;
         margin-top: 0px;
     }
 }
@@ -25,9 +29,6 @@
     color: $ocre;
     h2{
         font-family: 'Kurale', serif;
-    }
-    h3{
-        font-size: 2.2em;
     }
 }
 
@@ -39,7 +40,6 @@
     }
     h3{
         font-family: 'Kalam', cursive;
-        font-size: 2.2em;
     }
 }
 
@@ -51,7 +51,6 @@
     }
     h3{
         font-family: 'Kalam', cursive;
-        font-size: 2.2em;
     }
 }
 
@@ -76,11 +75,10 @@
         display: flex;
         justify-content: space-between;
     }
-    &--bar{
+    &-bar{
         height: 10%;
     }
     &-categories{
-
     h3{
         margin-top: 4%;
     }
@@ -96,4 +94,10 @@
 
 a{
     text-decoration: none;
+}
+
+.list-menu__card-title{
+    h3{
+        font-size: 2.2em;
+    }
 }

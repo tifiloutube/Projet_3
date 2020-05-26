@@ -5,8 +5,8 @@
     margin-bottom: 5%;
     justify-content: space-around;
         &__card{
-            width: 350px;
-            height: 450px;
+            min-width: 350px;
+            min-height: 450px;
             text-align: center;
         }
             &__card-title{
@@ -26,4 +26,35 @@
 
 section{
     margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1024px){
+
+body{
+    max-width: 1024px;
+}
+
+section{
+    width: auto;
+}
+
+.list-menu{
+    display: flex;
+    flex-direction: column;
+    &__card{
+        margin: auto;
+        margin-bottom: 10%;
+        width: 350px;
+        height: 450px;
+    }
+}
+
+.btn{
+    margin: auto;
+}
+
+}
+
+@media screen and (max-width: 475px){
+    
 }

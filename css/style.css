@@ -19,6 +19,11 @@
 .menu__title--black {
   color: black;
 }
+.menu__page-title--gradient {
+  background: -webkit-linear-gradient(45deg, #C77413, #8F5AFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .menu__st {
   background-color: #FCDFDB;
@@ -31,7 +36,6 @@
 }
 .menu__st h3 {
   font-family: "Kalam", cursive;
-  font-size: 2.2em;
   margin-top: 0px;
 }
 
@@ -41,9 +45,6 @@
 }
 .menu__snde h2 {
   font-family: "Kurale", serif;
-}
-.menu__snde h3 {
-  font-size: 2.2em;
 }
 
 .menu__thd {
@@ -55,7 +56,6 @@
 }
 .menu__thd h3 {
   font-family: "Kalam", cursive;
-  font-size: 2.2em;
 }
 
 .menu__fth {
@@ -67,7 +67,6 @@
 }
 .menu__fth h3 {
   font-family: "Kalam", cursive;
-  font-size: 2.2em;
 }
 
 .menu-shadow {
@@ -92,7 +91,7 @@
   display: flex;
   justify-content: space-between;
 }
-.menu__page--bar {
+.menu__page-bar {
   height: 10%;
 }
 .menu__page-categories h3 {
@@ -108,6 +107,10 @@
 
 a {
   text-decoration: none;
+}
+
+.list-menu__card-title h3 {
+  font-size: 2.2em;
 }
 
 .header {
@@ -151,8 +154,8 @@ a {
   justify-content: space-around;
 }
 .list-menu__card {
-  width: 350px;
-  height: 450px;
+  min-width: 350px;
+  min-height: 450px;
   text-align: center;
 }
 .list-menu__card-title {
@@ -173,6 +176,30 @@ section {
   margin-bottom: 150px;
 }
 
+@media screen and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
+
+  section {
+    width: auto;
+  }
+
+  .list-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-menu__card {
+    margin: auto;
+    margin-bottom: 10%;
+    width: 350px;
+    height: 450px;
+  }
+
+  .btn {
+    margin: auto;
+  }
+}
 .menu__page--logo-1 {
   width: 7.5%;
 }
@@ -180,6 +207,9 @@ section {
   margin-top: 0%;
   width: 5%;
   height: 5%;
+}
+.menu__page-title--size {
+  font-size: 2em;
 }
 
 .menu__st {
@@ -267,9 +297,9 @@ section {
   color: #0887FB;
   font-size: 4em;
 }
-.menu__thd h3 {
+.menu__thd-title--size {
   font-size: 1.5em;
-  margin-top: 2.5%;
+  margin-top: 0px;
 }
 .menu__thd p {
   font-size: 1.3em;
