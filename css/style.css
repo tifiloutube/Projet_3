@@ -113,6 +113,14 @@ a {
   font-size: 2.2em;
 }
 
+.menu__page-dish p {
+  margin-bottom: 0px;
+}
+
+.menu {
+  height: auto;
+}
+
 .header {
   width: auto;
   height: auto;
