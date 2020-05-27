@@ -54,12 +54,18 @@
         margin: auto;
     }
 }
+.menu{
+    width: 90%;
+    margin: auto;
+}
 }
 
 @media screen and (max-width: 475px){
 .menu{
     margin-left: 20%;
     margin-bottom: 25%;
+    width: auto;
+    margin-left: 25%;
     &__page{
         width: 600px;
         margin: auto;
@@ -74,5 +80,11 @@
         text-align: center;
         margin-bottom: 0px;
     }
+}
+.menu__page-dish{
+    margin-bottom: 10px;
+    }
+    p{
+    margin-bottom: 0px;
 }
 }

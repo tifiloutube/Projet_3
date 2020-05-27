@@ -114,7 +114,7 @@ a {
 }
 
 .header {
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: #579C87;
   margin-bottom: 50px;
@@ -146,9 +146,13 @@ a {
   font-size: 1.5em;
 }
 
+body {
+  margin: 0;
+}
+
 @media screen and (max-width: 475px) {
   .header {
-    width: 207%;
+    width: 210%;
   }
 }
 .list-menu {
@@ -183,15 +187,13 @@ section {
 }
 
 @media screen and (max-width: 1024px) {
-  body {
-    max-width: 1024px;
-  }
-
   section {
     width: auto;
   }
 
   .list-menu {
+    margin-left: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -205,6 +207,11 @@ section {
 
   .btn {
     margin: auto;
+  }
+}
+@media screen and (max-width: 475px) {
+  section {
+    margin-left: 55.5%;
   }
 }
 .menu__page--logo-1 {
@@ -259,11 +266,18 @@ section {
     justify-content: space-around;
     margin: auto;
   }
+
+  .menu {
+    width: 90%;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 475px) {
   .menu {
     margin-left: 20%;
     margin-bottom: 25%;
+    width: auto;
+    margin-left: 25%;
   }
   .menu__page {
     width: 600px;
@@ -277,6 +291,14 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .menu__page-dish {
+    margin-bottom: 10px;
+  }
+
+  p {
     margin-bottom: 0px;
   }
 }
@@ -330,6 +352,11 @@ section {
   margin: auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .menu__snde--pink {
+    width: auto;
+  }
+}
 .menu__thd-title--blue {
   color: #0887FB;
   font-size: 4em;

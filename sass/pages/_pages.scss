@@ -33,15 +33,13 @@ section{
 
 @media screen and (max-width: 1024px){
 
-body{
-    max-width: 1024px;
-}
-
 section{
     width: auto;
 }
 
 .list-menu{
+    margin-left: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -56,4 +54,10 @@ section{
 .btn{
     margin: auto;
 }
+}
+
+@media screen and (max-width: 475px){
+    section{
+       margin-left: 55.5%; 
+    }
 }
