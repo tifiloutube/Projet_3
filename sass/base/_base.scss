@@ -109,3 +109,11 @@ a{
 .menu{
     height: auto;
 }
+
+@media screen and (max-width: 375px){
+    .menu{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
