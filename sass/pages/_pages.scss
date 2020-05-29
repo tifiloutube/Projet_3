@@ -32,32 +32,30 @@ section{
 }
 
 @media screen and (max-width: 1024px){
-
-section{
-    width: auto;
-}
-
-.list-menu{
-    margin-left: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    &__card{
-        margin: auto;
-        margin-bottom: 10%;
-        width: 350px;
-        height: 450px;
+    section{
+        width: auto;
     }
-}
-
-.btn{
-    margin: auto;
-}
+    .list-menu{
+        
+    }
 }
 
 @media screen and (max-width: 475px){
     section{
-       margin-left: 55.5%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list-menu{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        &__card{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;  
+        }
+        .menu__st, .menu__thd{
+            margin-bottom: 50px;
+        }
     }
 }

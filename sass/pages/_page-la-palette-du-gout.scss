@@ -1,29 +1,23 @@
 .menu__fth{
-    &-title--green{
-        color: $apple;
-        font-size: 4em;
-        font-family: "Kaushan script";
+    .menu__page-bar{
+        width: 30%;
+        height: 10%;
+        padding-top: 43px;
     }
-    div:nth-child(0n+2){
-        width: 90%;
+    .menu__page-dish{
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
         margin: auto;
+    }
+    .menu__page-list:nth-child(4){
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .menu__fth
+        .menu__page-dish{
+            width: 550px;
         }
-    div:nth-child(0n+3){
-        width: 90%;
-        margin: auto;
-    }
-    div:nth-child(0n+4){
-        width: 90%;
-        margin: auto;
-    }
-}
-
-.menu__fth-dish{
-    width: 90%;
-    margin: auto;
-}
-
-.menu__fth p{
-    font-family: 'Tillana', cursive;
-    color: black;
 }

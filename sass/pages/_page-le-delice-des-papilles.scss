@@ -1,35 +1,24 @@
 .menu__thd{
-    &-title--blue{
-        color: $dodger-blue;
-        font-size: 4em;
+    .menu__page-bar{
+        width: 30%;
+        height: 10%;
+        padding-top: 40px;
     }
-    &-title--size{
-        font-size: 1.5em;
-        margin-top: 0px;
-    }
-    p{
-        font-size: 1.3em;
-    }
-    div:nth-child(0n+2){
-        width: 90%;
+    .menu__page-dish{
+        display: flex;
+        justify-content: space-between;
+        width: 750px;
         margin: auto;
+    }
+    .menu__page-list:nth-child(4){
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .menu__thd{
+        .menu__page-dish{
+            width: 550px;
         }
-    div:nth-child(0n+3){
-        width: 90%;
-        margin: auto;
     }
-    div:nth-child(0n+4){
-        width: 90%;
-        margin: auto;
-    }
-}
-
-.menu__thd-dish{
-    width: 90%;
-    margin: auto;
-}
-
-.menu__thd p{
-    font-family: 'Tillana', cursive;
-    color: black;
 }

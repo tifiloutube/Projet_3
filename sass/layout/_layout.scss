@@ -34,8 +34,23 @@
 body{
     margin: 0;
 }
-@media screen and (max-width: 475px){
+
+@media screen and (max-width: 1024px){
     .header{
-        width: 210%;
+        width: auto;
+        min-width: 700px;
+    }
+    .footer{
+        width: auto;
     }
 }
+@media screen and (max-width: 475px){
+    .header{
+        width: auto;
+        min-width: 365px;
+    }
+    .footer{
+        width: auto;
+    }
+}
+

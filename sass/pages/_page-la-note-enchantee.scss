@@ -1,90 +1,51 @@
-.menu__page{
-    &--logo-1{
-    width: 7.5%;
+.menu{
+    &__footer{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
     }
-    &--logo-2{
-    margin-top: 0%;
-    width: 5%;
-    height: 5%;
+    &__footer--layout{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
     }
-    &-title--size{
-        font-size: 2em;
+    &__footer-logo{
+        width: 80px;
+        height: 80px;
     }
-}
-
-.menu__st{
-    margin-top: 0px;
-    &-list{
-        margin-top: 0px;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        margin-bottom: 15%;
-    }
-    &--footer{
-        margin-top: 3%;
-    }
-    &--font-dish{
-        font-family: 'Kurale', cursive;
-        font-size: 1.5em;
-    }
-    &--font-price{
-        font-family: 'Devonshire', cursive;
-        font-size: 1.5em;
-    }
-}
-
-.menu__st--footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     h2{
-        margin-bottom: 0%;
+        padding-top: 10px;
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 1024px){
-.menu__page{
-    &-bar{
-        display: none;
+.menu__st{
+    .menu__page-bar{
+        width: 30%;
+        height: 10%;
+        padding-top: 15px;
     }
-    &-categories{
+    .menu__page-dish{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 880px;
         margin: auto;
     }
 }
-.menu{
-    width: 90%;
-    margin: auto;
-}
+
+@media screen and (max-width: 1024px){
+    .menu__st{
+        .menu__page-dish{
+            width: 500px;
+        }
+    }
 }
 
 @media screen and (max-width: 475px){
-.menu{
-    margin-left: 20%;
-    margin-bottom: 25%;
-    width: auto;
-    margin-left: 25%;
-    &__page{
-        width: 600px;
-        margin: auto;
+    .menu__footer{
+        width: 300px;
+        padding-top: 50px;
     }
-    &__page-list{
-        margin: auto;
-        width: 50%;
-    }
-    &__page-dish{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-}
-.menu__page-dish{
-    margin-bottom: 10px;
-    }
-    p{
-    margin-bottom: 0px;
-}
 }

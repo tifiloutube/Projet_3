@@ -1,21 +1,52 @@
 .btn{
-        margin-top: 5%;
-        display: flex;
-                &__soon--style{
-                text-align: center;
-                font-size: 2em;
-                border-radius: 10px;
-                width: 350px;
-                height: 60px;
-                background-color: $color-primary;
-                color: $color-secondary;
-                margin: auto;
-                }
+    margin-top: 5%;
+    display: flex;
+        &__soon--style{
+        text-align: center;
+        font-size: 2em;
+        border-radius: 10px;
+        width: 350px;
+        height: 60px;
+        background-color: $color-primary;
+        color: $color-secondary;
+        margin: auto;
+        }
 }
+.btn-animation__point1{
+    animation-name: jumpdot;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+}
+.btn-animation__point2{
+    animation-name: jumpdot;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    animation-delay: 300ms;
+}
+.btn-animation__point3{
+    animation-name: jumpdot;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    animation-delay: 600ms;
+}
+@keyframes jumpdot {
+    0% {
+      transform: translateY(0.3em);
+    }
+    100% {
+      transform: translateY(-0.3em);
+    }
+  }
 
 @media screen and (max-width: 475px){
     .btn{
-        width: 209%;
+        width: 80%;
         margin: auto;
     }
 }
