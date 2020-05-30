@@ -54,7 +54,7 @@
   font-family: "Kalam", cursive;
 }
 .menu__thd-title--gradient {
-  background: linear-gradient(90deg, #1b4ce4 15%, #0887fb 100%);
+  background: linear-gradient(90deg, #1b4ce4 15%, #13b4ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -96,6 +96,9 @@ a {
 .menu h1 {
   text-align: center;
   font-size: 3em;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu__page-title {
   text-align: center;
@@ -109,6 +112,49 @@ a {
   display: flex;
   justify-content: space-around;
   font-size: 1.5em;
+}
+
+/* animation surlignement des titres */
+.sliding-u-l-r-l {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.sliding-u-l-r-l:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  transition: width 0s ease, background 0.5s ease;
+}
+
+.sliding-u-l-r-l:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: red;
+  transition: width 0.5s ease;
+}
+
+.sliding-u-l-r-l:hover:before {
+  width: 100%;
+  background: red;
+  transition: width 0.5s ease;
+}
+
+.sliding-u-l-r-l:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
 }
 
 /* Responsive : code réutilisable pour les menus (tablette)*/
@@ -284,7 +330,7 @@ section {
   margin: auto;
 }
 .menu__st p {
-  font-family: "devonshire", sans-serif;
+  font-family: "Short Stack", cursive;
   font-size: 1em;
 }
 
@@ -319,6 +365,9 @@ section {
 .menu__snde .menu__page-list:nth-child(4) {
   height: 550px;
 }
+.menu__snde p {
+  font-family: "Short Stack", cursive;
+}
 
 @media screen and (max-width: 1024px) {
   .menu__snde--orange h3 {
@@ -346,6 +395,10 @@ section {
 .menu__thd p, .menu__thd .menu__title--black {
   color: black;
 }
+.menu__thd p {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.3em;
+}
 
 @media screen and (max-width: 1024px) {
   .menu__thd .menu__page-dish {
@@ -366,6 +419,10 @@ section {
 .menu__fth .menu__page-list:nth-child(4) {
   height: 550px;
 }
+.menu__fth p {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.3em;
+}
 
 @media screen and (max-width: 1024px) {
   .menu__fth .menu__page-dish {
@@ -385,6 +442,10 @@ section {
   background-color: #579C87;
   color: #FDCB46;
   margin: auto;
+}
+.btn p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .btn-animation {
