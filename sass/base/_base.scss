@@ -18,6 +18,11 @@
     h2{
         font-family: 'Kurale', serif;
     }
+    &-title--gradient{
+        background: linear-gradient(90deg, rgba(199,116,19,1) 30%, rgba(143,90,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .menu__thd{
@@ -29,6 +34,11 @@
     h3{
         font-family: 'Kalam', cursive;
     }
+    &-title--gradient{
+        background: linear-gradient(90deg, rgba(27,76,228,1) 15%, rgba(8,135,251,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .menu__fth{
@@ -39,6 +49,11 @@
     }
     h3{
         font-family: 'Kalam', cursive;
+    }
+    &-title--gradient{
+        background: linear-gradient(90deg, rgba(104,184,82,1) 30%, rgba(190,255,127,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 

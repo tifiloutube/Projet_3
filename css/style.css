@@ -37,6 +37,11 @@
 .menu__snde h2 {
   font-family: "Kurale", serif;
 }
+.menu__snde-title--gradient {
+  background: linear-gradient(90deg, #c77413 30%, #8f5aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .menu__thd {
   background-color: #eef0f0;
@@ -48,6 +53,11 @@
 .menu__thd h3 {
   font-family: "Kalam", cursive;
 }
+.menu__thd-title--gradient {
+  background: linear-gradient(90deg, #1b4ce4 15%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .menu__fth {
   background-color: #FDFFFD;
@@ -58,6 +68,11 @@
 }
 .menu__fth h3 {
   font-family: "Kalam", cursive;
+}
+.menu__fth-title--gradient {
+  background: linear-gradient(90deg, #68b852 30%, #beff7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu-shadow {
@@ -268,6 +283,10 @@ section {
   width: 880px;
   margin: auto;
 }
+.menu__st p {
+  font-family: "devonshire", sans-serif;
+  font-size: 1em;
+}
 
 @media screen and (max-width: 1024px) {
   .menu__st .menu__page-dish {
@@ -323,6 +342,9 @@ section {
 }
 .menu__thd .menu__page-list:nth-child(4) {
   height: 550px;
+}
+.menu__thd p, .menu__thd .menu__title--black {
+  color: black;
 }
 
 @media screen and (max-width: 1024px) {

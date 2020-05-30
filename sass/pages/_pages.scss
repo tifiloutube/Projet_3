@@ -9,15 +9,15 @@
             min-height: 450px;
             text-align: center;
         }
-            &__card-title{
-                margin-top: 50%;
-                :hover{
-                    transform: scale(1);
-                }
+        &__card-title{
+            margin-top: 50%;
+            :hover{
+                transform: scale(1);
             }
-                &__card--logo{
-                    width: 15%;
-                }
+        }
+        &__card--logo{
+            width: 15%;
+        }
 }
 
 .list-menu__card--red{
