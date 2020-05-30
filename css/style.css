@@ -536,5 +536,14 @@ section {
     margin: auto;
   }
 }
+.mentions {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mentions p {
+  margin-bottom: 5%;
+}
 
 /*# sourceMappingURL=style.css.map */
