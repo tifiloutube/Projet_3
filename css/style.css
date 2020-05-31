@@ -542,8 +542,10 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-.mentions p {
-  margin-bottom: 5%;
+@media screen and (max-width: 475px) {
+  .mentions {
+    margin-bottom: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
