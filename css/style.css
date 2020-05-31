@@ -219,55 +219,21 @@ a {
 
 /*animation wiggle des éléments du footer*/
 .wiggle-effect:hover {
-  cursor: pointer;
-  animation: anti-wiggle 1s ease-in-out;
+  animation: wiggle 75ms infinite;
+  animation-timing-function: linear;
 }
-.wiggle-effect:hover:after {
-  animation: wiggle 1s ease-in-out;
-}
-.wiggle-effect:focus, .wiggle-effect:active {
-  outline: 0;
+@keyframes wiggle {
+  0% {
+    transform: translate(2px, 0);
+  }
+  50% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(2px, 0);
+  }
 }
 
-@keyframes wiggle {
-  20% {
-    box-shadow: inset -5px 0 5px 0 rgba(0, 0, 0, 0.4);
-    transform: rotate(7deg);
-  }
-  40% {
-    box-shadow: inset -11px 0 5px 0 rgba(0, 0, 0, 0.4);
-    transform: rotate(-14deg);
-  }
-  60% {
-    box-shadow: inset -5px 0 5px 0 rgba(0, 0, 0, 0.4);
-    transform: rotate(4deg);
-  }
-  80% {
-    box-shadow: inset -8px 0 5px 0 rgba(0, 0, 0, 0.4);
-    transform: rotate(-2deg);
-  }
-  100% {
-    box-shadow: inset -7px 0 5px 0 rgba(0, 0, 0, 0.4);
-    transform: rotate(0deg);
-  }
-}
-@keyframes anti-wiggle {
-  20% {
-    transform: translateX(4px) rotate(-7deg);
-  }
-  40% {
-    transform: translateX(-8px) rotate(14deg);
-  }
-  60% {
-    transform: translateX(2px) rotate(-4deg);
-  }
-  80% {
-    transform: translateX(-1px) rotate(2deg);
-  }
-  100% {
-    transform: translateX(0px) rotate(0deg);
-  }
-}
 body {
   margin: 0;
 }
