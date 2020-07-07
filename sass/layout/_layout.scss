@@ -31,7 +31,12 @@
     }
 }
 
+body{
+    margin: 0;
+}
+
 /*animation wiggle des éléments du footer*/
+
 .wiggle-effect{
   &:hover{ 
     animation: wiggle 75ms infinite;
@@ -43,10 +48,6 @@
     50% { transform: translate(-2px, 0); }
     100% { transform: translate(2px, 0); }
   }
-}
- 
-body{
-    margin: 0;
 }
 
 @media screen and (max-width: 1024px){
