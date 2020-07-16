@@ -184,6 +184,14 @@ a {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  .menu {
+    width: 320px;
+  }
+  .menu h1 {
+    width: 320px;
+  }
+}
 .header {
   width: auto;
   height: auto;
@@ -217,6 +225,16 @@ a {
   font-size: 1.5em;
 }
 
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 80%;
+    margin: auto;
+  }
+}
 /*animation wiggle des éléments du footer*/
 .wiggle-effect:hover {
   animation: wiggle 75ms infinite;
@@ -234,10 +252,6 @@ a {
   }
 }
 
-body {
-  margin: 0;
-}
-
 @media screen and (max-width: 1024px) {
   .header {
     width: auto;
@@ -250,12 +264,11 @@ body {
 }
 @media screen and (max-width: 475px) {
   .header {
-    width: auto;
-    min-width: 365px;
+    min-width: 320px;
   }
 
   .footer {
-    width: auto;
+    max-width: 320px;
   }
 }
 .list-menu {
@@ -266,7 +279,7 @@ body {
   justify-content: space-between;
 }
 .list-menu__card {
-  min-width: 350px;
+  min-width: 320px;
   min-height: 450px;
   text-align: center;
 }
@@ -314,6 +327,12 @@ section {
     margin-bottom: 50px;
   }
 }
+@media screen and (max-width: 320px) {
+  .list-menu {
+    max-width: 320px;
+    padding: auto;
+  }
+}
 .menu__footer {
   width: 500px;
   margin-left: auto;
@@ -332,7 +351,7 @@ section {
 }
 .menu h2 {
   padding-top: 10px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .menu__st .menu__page-bar {
@@ -360,6 +379,11 @@ section {
   .menu__footer {
     width: 300px;
     padding-top: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .menu__footer--layout {
+    width: auto;
   }
 }
 .menu__snde .menu__page-bar {
@@ -500,6 +524,15 @@ section {
   .btn {
     width: 80%;
     margin: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .btn {
+    width: 90%;
+    margin: auto;
+  }
+  .btn .dot {
+    display: none;
   }
 }
 .mentions {
